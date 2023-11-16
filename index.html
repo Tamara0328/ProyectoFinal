@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="proyecto.css" />
+  </head>
+  <body> 
+    <nav>  
+        <div> 
+            <p class="titulo">Rick and Morty</p>
+        <ul>
+            <li id="todos">Todos</li> 
+            <li id="mujeres">Mujeres</li>    
+            <li id="hombres">Hombres</li>  
+            <li id="sinGenero">Sin Genero</li>    
+            <li id="noSeSabe">No se sabe</li>        
+        </ul>
+        </div>
+    </nav>
+    <main>
+      <p class="total">Total de personajes <span id="total-personajes"></span></p>
+      <div id="root"></div>
+
+      <div class="container-paginador">
+        <p>Pagina actual: <span id="pagina-actual"></span></p>
+        <p>Total de páginas: <span id="total-paginas"></span></p>
+
+        <div class="pagination">
+          <button id="first-page"> << </button>
+          <button id="prev-page">-</button>
+          <button id="next-page">+</button>
+          <button id="last-page"> >> </button>
+        </div>
+      </div>
+    </main> 
+    <footer>   <p>© 2023 Copyright Tamara Morales</p> </footer>
+    <script src="proyecto.js"></script> 
+
+  </body>
+</html>
